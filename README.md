@@ -47,7 +47,7 @@ bar = 10
 @noglobal
 def foo():
     global bar
-    bar += 1
+    bar = 11
 foo()
 print(bar)
 ```
